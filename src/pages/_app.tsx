@@ -1,3 +1,4 @@
+import '../styles/global.css';
 import { ChakraProvider } from "@chakra-ui/react";
 import { AppProps } from "next/app";
 import { UserProvider } from "../context/ UserContext";

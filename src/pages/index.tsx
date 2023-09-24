@@ -6,7 +6,24 @@ import SignMessage from "../components/SignMessage"
 import WalletDetail from "../components/WalletDetail"
 import { useUser } from "../context/ UserContext"
 import Nav from "../components/layouts/Navbar"
-
+import {
+  Box,
+  Flex,
+  Avatar,
+  Text,
+  Button,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuDivider,
+  useDisclosure,
+  useColorModeValue,
+  Stack,
+  useColorMode,
+  Center,
+} from '@chakra-ui/react'
+import { ChatBox } from "../components/ChatBox"
 
 export default function Home() {
    // Use the UserContext to get the current logged-in user
@@ -18,8 +35,15 @@ export default function Home() {
       {/* If no user is available, display the Connect button.
           Otherwise, display the Wallet details, Sign Message Component, Disconnect button, and ShowUI button. */}
       {!user ? (
+
+        <>
+
+        <ChatBox/>
+        <Text>   Please Connect Your wallet</Text>
+        </>
         
-        <ConnectButton />
+        
+       
       ) : (
         <>
           <WalletDetail />

@@ -18,6 +18,7 @@ import {
   Center,
 } from '@chakra-ui/react'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
+import ConnectButton from '../ConnectButton'
 
 interface Props {
   children: React.ReactNode
@@ -49,10 +50,11 @@ export default function Nav() {
     <>
       <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Box>EDU-HELP</Box>
+          <Box><Text as={'b'} className='text-xl'>EDU-HELP</Text> </Box>
 
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
+            <ConnectButton />
               <Button onClick={toggleColorMode}>
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               </Button>

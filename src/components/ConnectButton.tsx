@@ -22,7 +22,7 @@ const ConnectButton = () => {
   }
 
   // Render the button component with the click event handler
-  return <Button onClick={handleConnect}>Connect</Button>
+  return <Button bg={'green'} onClick={handleConnect}>Connect Wallet</Button>
 }
 
 export default ConnectButton
