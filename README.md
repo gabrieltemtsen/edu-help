@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Edu-Help
 
-## Getting Started
+Edu-Help is a decentralized AI educational platform that helps students learn more effectively. Students can upload PDF lectures to the platform and then ask the AI chatbot questions about the lectures. The chatbot answers the questions using its knowledge of the lecture and its knowledge of the world.
 
-First, run the development server:
+Edu-Help is powered by Web3 technology, which makes it more secure, resistant to censorship, and accessible to students from all over the world.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* AI chatbot that can answer questions about PDF lectures
+* Decentralized storage network for storing PDF lectures
+* Secure and tamper-proof way for students to store and share their transcripts and other educational records
+* Decentralized marketplace where students can buy and sell educational resources
+* Personalized learning experience tailored to each student's individual needs
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Benefits
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* Students can learn more effectively by asking the AI chatbot questions about their lectures.
+* Students can access the platform from anywhere in the world with an internet connection.
+* Students' data is secure and tamper-proof.
+* Students can buy and sell educational resources from other students.
+* Students have a personalized learning experience tailored to their individual needs.
 
-## Learn More
+## How to use
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Upload a PDF lecture to the platform.
+2. Ask the AI chatbot questions about the lecture.
+3. The chatbot will answer your questions using its knowledge of the lecture and its knowledge of the world.
