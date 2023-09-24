@@ -14,7 +14,7 @@ declare global {
 let magicInstance;
 
 if (typeof window !== 'undefined') {
-  magicInstance = new Magic("pk_live_A0DC15B4B593C660", {
+  magicInstance = new Magic("pk_live_D1B41730BA65CD15", {
     network: {
       rpcUrl: "https://eth-sepolia.g.alchemy.com/v2/demo",
       chainId: 11155111,
